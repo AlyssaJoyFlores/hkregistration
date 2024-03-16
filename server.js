@@ -44,6 +44,11 @@ server.use(fileUpload({useTempFiles:true}));
 server.use(cookieParser(process.env.JWT_SECRET));
 
 
+server.get('/', (req, res) => {
+    res.status(200).json({message: 'link to the client'})
+    console.log('link to the client')
+})
+
 
 
 
