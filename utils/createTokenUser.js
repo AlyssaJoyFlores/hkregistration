@@ -6,6 +6,7 @@ const createTokenUser = (user) => {
         fname: user.fname,
         lname: user.lname,
         email: user.email,
+        role: user.role
         // bday: user.bday,
         // phoneNum: user.phoneNum,
         // age: user.age,
